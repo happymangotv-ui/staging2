@@ -1,11 +1,11 @@
-import { PHONE, ADDR } from '@/lib/constants'
+import { PHONE, ADDR, MAPS } from '@/lib/constants'
 
 export default function InfoStrip() {
   const items = [
     {
       label: 'Location',
       val: ADDR,
-      href: 'https://maps.google.com/?q=391+Brook+Ave+Bronx+NY+10454',
+      href: MAPS,
       icon: (
         <>
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />

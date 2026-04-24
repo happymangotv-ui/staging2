@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="hero-actions">
             <a href={`tel:${PHONE}`} className="btn-primary">Call Us</a>
             <a
-              href="https://maps.google.com/?q=391+Brook+Ave+Bronx+NY+10454"
+              href="https://share.google/7YwmX9s8jld6DnYaD"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"

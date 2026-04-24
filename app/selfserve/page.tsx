@@ -28,7 +28,7 @@ export default function SelfServePage() {
           <div className="hero-actions">
             <a href={`tel:${PHONE}`} className="btn-primary">Call Ahead</a>
             <a
-              href="https://maps.google.com/?q=391+Brook+Ave+Bronx+NY+10454"
+              href="https://share.google/7YwmX9s8jld6DnYaD"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
@@ -114,7 +114,7 @@ export default function SelfServePage() {
             391 Brook Ave, Bronx NY 10454.
           </p>
           <a
-            href="https://maps.google.com/?q=391+Brook+Ave+Bronx+NY+10454"
+            href="https://share.google/7YwmX9s8jld6DnYaD"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-white"
