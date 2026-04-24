@@ -27,7 +27,7 @@ export default function Footer() {
           <ul>
             <li><span>{ADDR}</span></li>
             <li><a href={`tel:${PHONE}`}>{PHONE}</a></li>
-            <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
+            <li><a href={`mailto:${EMAIL}?subject=The%20City%20Laundry%20Inquiry`}>{EMAIL}</a></li>
             <li><span>Mon–Sun: 7am – 8pm</span></li>
           </ul>
         </div>
