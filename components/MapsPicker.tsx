@@ -53,7 +53,7 @@ export default function MapsPicker({ children, className, style }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="maps-option"
-                  style={{ background: opt.bg }}
+                  style={{ background: opt.bg, color: '#ffffff' }}
                   onClick={() => setOpen(false)}
                 >
                   {opt.label}
