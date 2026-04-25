@@ -9,7 +9,7 @@ const areas = [
 ]
 
 const steps = [
-  { n: '1', t: 'Schedule online',                d: 'Pick a time — available 7am to 8pm, 7 days a week.' },
+  { n: '1', t: 'Schedule online',                d: 'Pick a time — available 8am to 8pm, 7 days a week.' },
   { n: '2', t: 'We pick up from your door',      d: 'Our driver arrives at your building. Hand off your laundry and go about your day.' },
   { n: '3', t: 'Cleaned & delivered in 48 hrs',  d: 'We wash, dry, fold, and return everything fresh to your door.' },
 ]
