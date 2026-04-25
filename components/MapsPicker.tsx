@@ -7,17 +7,17 @@ const OPTIONS = [
   {
     label: 'Google Maps',
     url: MAPS,
-    bg: '#4285F4',
+    bg: '#2d7d6e',
   },
   {
     label: 'Apple Maps',
     url: `https://maps.apple.com/?q=${encodeURIComponent(ADDR)}`,
-    bg: '#555555',
+    bg: '#2d7d6e',
   },
   {
     label: 'Waze',
     url: `https://waze.com/ul?q=${encodeURIComponent(ADDR)}&navigate=yes`,
-    bg: '#33CCFF',
+    bg: '#2d7d6e',
   },
 ]
 
