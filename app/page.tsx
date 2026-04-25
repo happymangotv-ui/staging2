@@ -5,7 +5,7 @@ import InfoStrip from '@/components/InfoStrip'
 
 const services = [
   {
-    img: IMGS.pickupCard,
+    img: 'https://i.ibb.co/Kc2mBxMX/basket-with-clothes-2026-01-09-08-14-53-utc.jpg',
     title: 'Pickup & Delivery',
     sub: 'Free pickup · Manhattan',
     desc: 'Schedule online, we pick up and deliver within 48 hours.',

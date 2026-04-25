@@ -83,7 +83,7 @@ export default function CommercialPage() {
         <div className="split">
           <FadeUp className="split-img">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={IMGS.fold} alt="Folded commercial linens" />
+            <img src={IMGS.pickupCard} alt="Pickup and delivery service" />
           </FadeUp>
           <FadeUp className="split-text">
             <div className="section-label">Why partner with us</div>
