@@ -1,4 +1,5 @@
 import { BOOKING, PHONE, IMGS } from '@/lib/constants'
+import MapsPicker from '@/components/MapsPicker'
 import FadeUp from '@/components/FadeUp'
 import InfoStrip from '@/components/InfoStrip'
 
@@ -25,14 +26,7 @@ export default function AboutPage() {
           </p>
           <div className="hero-actions">
             <a href={`tel:${PHONE}`} className="btn-primary">Call Us</a>
-            <a
-              href="https://share.google/7YwmX9s8jld6DnYaD"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Get Directions
-            </a>
+            <MapsPicker className="btn-secondary">Get Directions</MapsPicker>
           </div>
         </FadeUp>
 

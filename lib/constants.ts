@@ -1,6 +1,6 @@
 export const BOOKING  = 'https://app.trycents.com/new-order/YjUw/home'
 export const MAPS     = 'https://share.google/7YwmX9s8jld6DnYaD'
-export const PHONE   = '(347) 758-7966'
+export const PHONE   = '(917) 825-9176'
 export const ADDR    = '391 Brook Ave, Bronx NY 10454'
 export const EMAIL   = 'Classicbrook13@gmail.com'
 

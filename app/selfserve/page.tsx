@@ -1,4 +1,5 @@
 import { BOOKING, PHONE, IMGS } from '@/lib/constants'
+import MapsPicker from '@/components/MapsPicker'
 import FadeUp from '@/components/FadeUp'
 import Check from '@/components/Check'
 
@@ -27,14 +28,7 @@ export default function SelfServePage() {
           </p>
           <div className="hero-actions">
             <a href={`tel:${PHONE}`} className="btn-primary">Call Ahead</a>
-            <a
-              href="https://share.google/7YwmX9s8jld6DnYaD"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Get Directions
-            </a>
+            <MapsPicker className="btn-secondary">Get Directions</MapsPicker>
           </div>
         </FadeUp>
 
@@ -113,15 +107,9 @@ export default function SelfServePage() {
             No appointment needed. Walk in, load up, and be done in under an hour.
             391 Brook Ave, Bronx NY 10454.
           </p>
-          <a
-            href="https://share.google/7YwmX9s8jld6DnYaD"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-white"
-            style={{ display: 'inline-block' }}
-          >
+          <MapsPicker className="btn-white" style={{ display: 'inline-block' }}>
             Get Directions →
-          </a>
+          </MapsPicker>
         </div>
       </div>
 
